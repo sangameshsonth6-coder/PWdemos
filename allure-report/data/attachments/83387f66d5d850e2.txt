@@ -1,0 +1,2 @@
+Already logged in, skipping login steps.
+Test TC_RLA_01 Passed: "Add New" button is hidden.

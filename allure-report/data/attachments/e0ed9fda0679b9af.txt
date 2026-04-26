@@ -1,0 +1,6 @@
+=== DIALOG TEXT ===
+ Duplicate Role!
+Role name already exists.
+OK
+  
+✅ TC_ARD_06 PASSED: Duplicate role "Anupama" was correctly rejected. Error popup shown with message: "Role name already exists." and dismissed successfully.

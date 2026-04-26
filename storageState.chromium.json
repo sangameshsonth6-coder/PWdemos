@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "ci_session",
+      "value": "9okuqsdfm1nnoo8gbqgpv4r27un86jgk",
+      "domain": "or-demo.knrleap.org",
+      "path": "/",
+      "expires": 1777223327.046465,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MmFkMnR5MXVpaHR2Yg=="
+        }
+      ]
+    }
+  ]
+}

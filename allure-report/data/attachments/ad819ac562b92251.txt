@@ -1,0 +1,25 @@
+
+🌐  Opening login page...
+  📡 200 https://or-demo.knrleap.org/login
+  📄 Response body:   
+  <!DOCTYPE html>  
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LEAP - Student Management System">
+  <meta name="author" content="KNR Tech Solutions">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://leap-storage.blr1.digitaloceanspaces.com/KNR/2025-26/school_details/school_logo/KNR_f625652e-7592-4c01-a00d-
+  ✅ reCAPTCHA widget loaded
+  ✅ reCAPTCHA bypassed
+  ✅ Credentials filled
+  📤 Original POST body: email=demo%40knrint.com&password=KNRADMIN%402026&g-recaptcha-response=03AGdBq24PBCbwiDRaS_MJ7Z8GitnZi
+  📤 Modified POST body: email=demo%40knrint.com&password=KNRADMIN%402026&g-recaptcha-response=03AGdBq24PBCbwiDRaS_MJ7Z8GitnZi
+  📡 200 https://or-demo.knrleap.org/login/validate_login
+  ✅ Login submitted
+  📄 Response body: 
+  ✅ Reached dashboard
+
+✅  Session saved → D:\studies\PWdemoes\storageState.chromium.json
+  🚪 Page was closed

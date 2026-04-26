@@ -1,0 +1,1 @@
+Test TC_RLA_02 Passed: Table is visible with 10 roles.

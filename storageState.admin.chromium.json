@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "ci_session",
+      "value": "v750qitn9ol1vaclhj8u8sr33an1u7qr",
+      "domain": "or-demo.knrleap.org",
+      "path": "/",
+      "expires": 1776257225.027438,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
