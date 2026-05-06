@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "ci_session",
-      "value": "9okuqsdfm1nnoo8gbqgpv4r27un86jgk",
+      "value": "fbm72ge3ir6ciqsidmmgn6tk8s9e147g",
       "domain": "or-demo.knrleap.org",
       "path": "/",
-      "expires": 1777223327.046465,
+      "expires": 1778060661.701368,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
@@ -17,7 +17,7 @@
       "localStorage": [
         {
           "name": "rc::a",
-          "value": "MmFkMnR5MXVpaHR2Yg=="
+          "value": "NGdkYnFkamdsNGYx"
         }
       ]
     }
