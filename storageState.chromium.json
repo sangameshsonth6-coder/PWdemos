@@ -2,24 +2,14 @@
   "cookies": [
     {
       "name": "ci_session",
-      "value": "fbm72ge3ir6ciqsidmmgn6tk8s9e147g",
+      "value": "atlt0l6997uh5j2hgmdk8le44jhbntd4",
       "domain": "or-demo.knrleap.org",
       "path": "/",
-      "expires": 1778060661.701368,
+      "expires": 1778160840.021714,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     }
   ],
-  "origins": [
-    {
-      "origin": "https://www.google.com",
-      "localStorage": [
-        {
-          "name": "rc::a",
-          "value": "NGdkYnFkamdsNGYx"
-        }
-      ]
-    }
-  ]
+  "origins": []
 }
