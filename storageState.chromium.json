@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "ci_session",
-      "value": "atlt0l6997uh5j2hgmdk8le44jhbntd4",
+      "value": "nop60drnd6l6pph33u08e31f5il7eng5",
       "domain": "or-demo.knrleap.org",
       "path": "/",
-      "expires": 1778160840.021714,
+      "expires": 1778576219.282445,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
