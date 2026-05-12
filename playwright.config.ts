@@ -6,7 +6,11 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: 1,
-  reporter: 'html',
+
+  reporter: [
+    ['html'],
+    ['allure-playwright']
+  ],
 
   use: {
     trace: 'on-first-retry',
@@ -15,7 +19,7 @@ export default defineConfig({
   projects: [
     {
       name: 'setup',
-      testMatch: /.*auth\.setup\.ts/,   // only matches the login file
+      testMatch: /.*auth\.setup\.ts/,
     },
     {
       name: 'chromium',
@@ -23,7 +27,7 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         storageState: 'storageState.chromium.json',
       },
-      testMatch: /.*\.spec\.ts/,        // only matches spec files
+      testMatch: /.*\.spec\.ts/,
       dependencies: ['setup'],
     },
   ],
