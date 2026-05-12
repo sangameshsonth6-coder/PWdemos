@@ -378,38 +378,6 @@ test('F-014 - Verify Column Visibility', async ({ page }) => {
 
 
 
-// ✅ HELPERS MUST BE AT THE TOP — before any test()
-
-// async function login(page: Page) {
-//   await page.goto('https://or-demo.knrleap.org/login', { waitUntil: 'networkidle' });
-//   if (page.url().includes('login')) {
-//     await page.locator('input[name="username"]').fill(process.env.TEST_USERNAME ?? 'your_username');
-//     await page.locator('input#pass').fill(process.env.TEST_PASSWORD ?? 'your_password');
-//     await page.getByRole('button', { name: /Log In/i }).click();
-//     await expect(page).toHaveURL(/dashboard/, { timeout: 20000 });
-//   }
-// }
-
-// async function fillFilters(page: Page, academicValue: string, classSectionValue: string) {
-//   await page.locator('select#academic').selectOption({ value: academicValue });
-//   await page.evaluate((val: string) => {
-//     const select = document.getElementById('class_section') as HTMLSelectElement;
-//     for (const option of Array.from(select.options)) {
-//       if (option.value === val) {
-//         option.selected = true;
-//         break;
-//       }
-//     }
-//     select.dispatchEvent(new Event('change', { bubbles: true }));
-//   }, classSectionValue);
-// }
-
-// async function submitAndWaitForTable(page: Page) {
-//   await page.locator('input#search[type="submit"]').click();
-//   await expect(page.locator('table tbody tr').first()).toBeVisible({ timeout: 20000 });
-// }
-
-// ✅ TEST
 
 test('F-015 - Verify Search Field', async ({ page }) => {
   test.setTimeout(120000);
