@@ -1,11 +1,21 @@
 {
   "cookies": [
     {
+      "name": "_GRECAPTCHA",
+      "value": "09AKhCRwjDYVOxm615RjZZVg8cOnlM-tYpM4lmDP84tQqql2nG7DXgukyp9gitj6UyT1n8MBmu8-4lM8FGReZ3csI",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1795587239.012971,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
       "name": "ci_session",
-      "value": "nrt8g5jvd5l8v6bvvie54cdjdfatugjq",
-      "domain": "or-demo.knrleap.org",
+      "value": "01b945902a52f12331eaa651d30c6c340d71cf15",
+      "domain": "leap.knr.npsypr.edu.in",
       "path": "/",
-      "expires": 1778582567.425707,
+      "expires": 1780042429.158692,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
@@ -13,11 +23,24 @@
   ],
   "origins": [
     {
+      "origin": "https://leap.knr.npsypr.edu.in",
+      "localStorage": [
+        {
+          "name": "_grecaptcha",
+          "value": "09AKhCRwhtNvcYHJMr6IgxkCCTfQ7vD09BPq_7fxb9LkIwYq6sVuanuN4-QZZ3_TxbGhGsVEgnKScuoPyisd53XXWuYOsD9oqP4qxmb9xL-ouKDayzZRKUe8zH8gLJiCZR"
+        }
+      ]
+    },
+    {
       "origin": "https://www.google.com",
       "localStorage": [
         {
           "name": "rc::a",
-          "value": "MXh6dmpvc3E3cnVudg=="
+          "value": "MTByYnlnY2ZhdjRwOA=="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aACC5ciAcPVzI_XqrC490CXuEnjWoCtTci5nl_IdjKliu1iu90pzFYx1UlFTsz5sK42s_PMo"
         }
       ]
     }
