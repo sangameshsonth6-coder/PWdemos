@@ -25,18 +25,23 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
 
       - name: Install Playwright Browsers
-        run: npx playwright install
+        run: npx playwright install --with-deps
 
-      - name: Run ID1 Tests
-        run: npx playwright test tests/id/id1.spec.ts
+      - name: Run ID2 Tests
+        run: npx playwright test tests/id/id2.spec.ts
         continue-on-error: true
 
       - name: List Allure Results
         if: always()
-        run: ls -R allure-results
+        run: |
+          if [ -d "allure-results" ]; then
+            ls -R allure-results
+          else
+            echo "No allure-results folder found"
+          fi
 
       - name: Generate Allure Report
         if: always()
